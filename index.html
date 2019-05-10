@@ -18,6 +18,8 @@
     <!------------------ Font Awesome---------->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!---------------------------Aos on scroll ---------------->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!---------------------------Style Sheet ---------------->
     <link rel='stylesheet' type='text/css' media='screen' href='./assets/css/style.css'>
     <!------------------ Favicon ---------->
@@ -28,29 +30,126 @@
 <body>
     <div id="wrapAll">
         <div class="jumbotron jumbotron-fluid">
-                <div id="particles-js"></div>
-                <button id="particle-button"> Portfilio</button>
-            <div class="container">
-                <h1 class="display-4">Fluid jumbotron</h1>
-                <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.
-                </p>
+
+            <div id="particles-js"></div>
+
+
+        </div>
+    </div>
+    <!------------------------------------------------------BIO --------------------------------------------------------------->
+    <div class="card shadow p-3 mb-5 bg-white rounded">
+        <div class="card-body bio-card">
+            <!-- <img src="assets/images/bubbles.png"> -->
+
+            <img src="./assets/images/kelli.png" id="headshot" data-aos="fade-right" data-aos-delay="500">
+            <p id="bio" data-aos="fade-left" data-aos-delay="500"> "Sed ut perspiciatis unde omnis iste natus error sit
+                voluptatem accusantium doloremque
+                laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto
+                beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur
+                aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi
+                nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
+                velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat
+                voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam,
+                nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate
+                velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla
+                pariatur?"</p>
+
+        </div>
+    </div>
+    <!------------------------------------------------------PORTFOLIO--------------------------------------------------------------->
+    <div class="card shadow p-3 mb-5 bg-white rounded">
+        <div class="card-body portfolio-card">
+            <h3>Portfolio</h3>
+            <div class="portfolio-grid">
+                <div class="grid-item" data-aos="flip-up">
+                    <a href="#">
+                        <div class="imageText">HANGMAN
+                        </div><img src="./assets/images/hangman.jpg" alt="Hangman" class="photo">
+                    </a>
+                </div>
+                <div class="grid-item" data-aos="flip-up">
+                    <a href="#">
+                        <div class="imageText">RPG GAME
+                        </div><img src="./assets/images/game.jpg" alt="RPG Game" class="photo">
+
+                    </a>
+                </div>
+                <div class="grid-item" data-aos="flip-up">
+                    <a href="#">
+                        <div class="imageText">TRIVIA GAME
+                        </div><img src="./assets/images/gametwoo.jpg" alt="Trivia Game" class="photo">
+
+                    </a>
+                </div>
+                <div class="grid-item" data-aos="flip-up">
+                    <a href="#">
+                        <div class="imageText"> RUTGERS INFO WIDGET
+                        </div><img src="./assets/images/gamethree.jpg" alt="Rutger Info Widget" class="photo">
+
+                    </a>
+                </div>
+                <div class="grid-item" data-aos="flip-up">
+                    <a href="#">
+                        <div class="imageText"> ROCK PAPER
+                        </div><img src="./assets/images/gamefour.jpg" alt="Rock, Paper, Scissors" class="photo">
+
+                    </a>
+                </div>
             </div>
         </div>
-        <div class="card shadow p-3 mb-5 bg-white rounded">
-            <div class="card-body">
-                Bio.
+    </div>
+    <!------------------------------------------------------CONTACT--------------------------------------------------------------->
+    <div class="card shadow p-3 mb-5 bg-white rounded">
+        <div class="card-body contact-card">
+
+            <div class="row">
+                <form class="col s12" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <i class="material-icons prefix far fa-user"></i>
+                            <input id="icon_prefix" type="text" class="validate">
+                            <label for="icon_prefix">Name</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <i class="material-icons prefix far fa-envelope"></i>
+                            <input id="icon_prefix" type="text" class="validate">
+                            <label for="icon_prefix">Email</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <i class="material-icons prefix fas fa-phone"></i>
+                            <input id="icon_telephone" type="tel" class="validate">
+                            <label for="icon_telephone">Telephone</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <i class="material-icons prefix far fa-edit"></i>
+                            <input id="icon_telephone" type="tel" class="validate">
+                            <label for="icon_telephone">Message</label>
+                        </div>
+                    </div>
             </div>
+            </form>
         </div>
-        <div class="card shadow p-3 mb-5 bg-white rounded">
-            <div class="card-body">
-                Portfolio.
-            </div>
-        </div>
-        <div class="card shadow p-3 mb-5 bg-white rounded">
-            <div class="card-body">
-                Contact.
-            </div>
-        </div>
+        <!-- <form>
+
+                <input type="text" name="name" placeholder="Name">
+                <br><br>
+
+                <input type="text" name="email" placeholder="Email Address">
+                <br><br>
+
+                <input id="message" type="text" name="message" placeholder="Message">
+               
+                <br>
+                <button type="button">Submit</button>
+            </form> -->
+    </div>
+    </div>
     </div>
 
     <!-- JQuery -->
@@ -69,6 +168,8 @@
     <!-- JqueryCDN-->
     <script src="https://code.jquery.com/jquery-3.4.0.js"
         integrity="sha256-DYZMCC8HTC+QDr5QNaIcfR7VSPtcISykd+6eSmBW5qo=" crossorigin="anonymous"></script>
+    <!------------------ Aos on scroll ---------->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!------------------ Particles.js ---------->
     <script src="./assets/javascript/particles.js-master 2/particles.js"> </script>
     <script src="assets/javascript/particles.js-master 2/demo/js/app.js"></script>

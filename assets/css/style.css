@@ -4,31 +4,112 @@
 
 #wrapAll{
     background-color: lightpink;
-    height: 900px;
     margin: 0 auto;
     width: 100%;
 
 }
 .jumbotron{
-    height: 700px;
+  
+    width: 100%;
     margin: 0 auto;
     padding: 0;
+    background-image: url("../images/space.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .card{
-    height: 700px;
+    height: 800px;
     
+}
+
+#headshot{
+    height: 600px;
+    width: auto;
+    padding-left: 150px;
+    float:left;
+}
+
+#bio{
+    padding: 15px;
 }
 
 container{
     margin: 0 !important;
 }
 
+
+.particles-js-canvas-el element.style{
+width: 0 !important;
+}
 .card .mb-5{
     margin: 5px auto !important;
 }
 
 #particle-js{
     height: 100%;
-    width: 100%;
+    background: cover;
+    background-position: cover;
 
+
+}
+
+element.style{
+    width: 0;
+}
+
+
+/* Portfolio Page */
+
+.photo{
+    height: 350px;
+    width: 420px;
+    position: relative;
+   
+}
+
+.portfolio-grid {
+    color:white;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 20px;
+    column-gap: 10px;
+    align-content: center;
+}
+
+
+.portfolio-grid img:hover {
+    -webkit-transform: scale(2.5); 
+    transform: scale(1.5); 
+    z-index: 2;
+    position: relative;
+    top:-25px;
+}
+
+
+.imageText{
+    margin: 55px;
+    position: absolute;
+    z-index: 8;
+    color: white;
+    font-size: 35px;
+  
+}
+
+
+.imageText:hover{
+    opacity: 1;
+}
+
+/* Contact Page */
+
+#message{
+ overflow: scroll;
+}
+.contact-card{
+    width: 300px;
+    
+   margin: 100px 50px 100px 200px;
+    float: left;
 }
