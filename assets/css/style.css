@@ -11,11 +11,51 @@
 .jumbotron{
   
     width: 100%;
+    text-align:center;
     margin: 0 auto;
     padding: 0;
     background-image: url("../images/space.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
+
+}
+
+
+
+#headerButtons{
+    width: 100%;
+    text-align: center;
+}
+.btn-outline-default{
+    z-index: 9;
+    position: absolute;
+    margin-top: 30%;
+    color: white !important;
+    display: inline-block;
+
+}
+
+.btn-outline-default{
+    border: none !important;
+}
+
+#title{
+    z-index: 9;
+    display: inline-block;
+    position: absolute;
+  
+    margin-left: -100px;
+    margin-top: 25%;
+    color: white;
+}
+#name{
+    z-index: 9;
+    display: inline-block;
+    position: absolute;
+  
+    margin-left: -100px;
+    margin-top: 22%;
+    color: white;
 }
 .card{
     height: 800px;
@@ -39,7 +79,7 @@ container{
 
 
 .particles-js-canvas-el element.style{
-width: 0 !important;
+position: absolute;
 }
 .card .mb-5{
     margin: 5px auto !important;
@@ -49,7 +89,10 @@ width: 0 !important;
     height: 100%;
     background: cover;
     background-position: cover;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
 
 }
 
@@ -61,8 +104,8 @@ element.style{
 /* Portfolio Page */
 
 .photo{
-    height: 350px;
-    width: 420px;
+    height: 300px;
+    width: 370px;
     position: relative;
    
 }
@@ -72,7 +115,7 @@ element.style{
     text-align: center;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: 1fr;
     row-gap: 20px;
     column-gap: 10px;
     align-content: center;
@@ -107,8 +150,8 @@ element.style{
 #message{
  overflow: scroll;
 }
-.contact-card{
-    width: 300px;
+#contact-card{
+    width: 500px;
     
    margin: 100px 50px 100px 200px;
     float: left;

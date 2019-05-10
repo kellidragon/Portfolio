@@ -30,15 +30,24 @@
 <body>
     <div id="wrapAll">
         <div class="jumbotron jumbotron-fluid">
-
-            <div id="particles-js"></div>
+                <h1 id="name"class= " animated zoomIn slow">KELLI<strong>DRAGON</strong> </h1>
+                <h3 id="title" class="animated zoomIn slower">WEB DEVELOPMENT</h3>
+                
+                <div id="headerButtons">
+                <button type="button" class="btn btn-outline-default btn-rounded waves-effect btn-port"><a href="#portfolio-card">Portfolio</a></button>
+                <!-- <button type="button" class="btn  btn-outline-default btn-rounded waves-effect btn-about"><a href="#bio-card">About Me</a></button>
+                <button type="button" class="btn  btn-outline-default btn-rounded waves-effect btn-cont"><a href="#contact-card">Contact</a></button> -->
+            </div>
+            <div id="particles-js">
+             
+            </div>
 
 
         </div>
     </div>
     <!------------------------------------------------------BIO --------------------------------------------------------------->
     <div class="card shadow p-3 mb-5 bg-white rounded">
-        <div class="card-body bio-card">
+        <div class="card-body" id="bio-card">
             <!-- <img src="assets/images/bubbles.png"> -->
 
             <img src="./assets/images/kelli.png" id="headshot" data-aos="fade-right" data-aos-delay="500">
@@ -58,7 +67,7 @@
     </div>
     <!------------------------------------------------------PORTFOLIO--------------------------------------------------------------->
     <div class="card shadow p-3 mb-5 bg-white rounded">
-        <div class="card-body portfolio-card">
+        <div class="card-body" id="portfolio-card">
             <h3>Portfolio</h3>
             <div class="portfolio-grid">
                 <div class="grid-item" data-aos="flip-up">
@@ -100,7 +109,7 @@
     </div>
     <!------------------------------------------------------CONTACT--------------------------------------------------------------->
     <div class="card shadow p-3 mb-5 bg-white rounded">
-        <div class="card-body contact-card">
+        <div class="card-body" id="contact-card">
 
             <div class="row">
                 <form class="col s12" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
@@ -132,22 +141,11 @@
                             <label for="icon_telephone">Message</label>
                         </div>
                     </div>
+                    <input type="submit" class="btn btn-outline-info btn-rounded waves-effect">
             </div>
             </form>
         </div>
-        <!-- <form>
-
-                <input type="text" name="name" placeholder="Name">
-                <br><br>
-
-                <input type="text" name="email" placeholder="Email Address">
-                <br><br>
-
-                <input id="message" type="text" name="message" placeholder="Message">
-               
-                <br>
-                <button type="button">Submit</button>
-            </form> -->
+       
     </div>
     </div>
     </div>
