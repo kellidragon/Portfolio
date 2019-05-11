@@ -8,6 +8,8 @@ $(document).ready(function(){
 
   AOS.init();
 
-    
+    $(".submit-btn").on("click", function(event){
+        event.preventDefault();
+    })
     
     })
