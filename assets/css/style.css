@@ -3,16 +3,34 @@
    font-family:  'Montserrat', sans-serif;
 }
 
+body{
+    background-image: url("../images/space.jpeg");
+    position: cover;
+   
+
+}
+
+h1{
+    text-align: center;
+    color: lightgray;
+
+}
+
+.aboutMe{
+    margin-top: 50px;
+}
+
 #wrapAll{
     background-color: lightpink;
-    margin: 0 auto;
+    text-align: center;
     width: 100%;
 
 }
 .jumbotron{
     width: 100%;
+    height: 1500px;;
     text-align:center;
-    margin: 0 auto;
+    height: 100%;
     padding: 0;
     background-image: url("../images/space.jpeg");
     background-size: cover;
@@ -21,16 +39,24 @@
 }
 
 
-
-
 .btn-outline-default{
     margin-top: 200%;
     z-index: 9;
     position: absolute;
     border: transparent !important;
+    display: inline-block;
 
 }
 
+.titleRow{
+    margin-top: 18%;
+    z-index: 10;
+    position: absolute;
+    color: white;
+    left: 37%;
+    display:inline-block;
+    
+}
 
 .head-btn{
     color: white;
@@ -48,36 +74,30 @@
 
 #title{
     z-index: 10;
-    display: inline-block;
-    position: absolute;
-  
-    margin-left: -100px;
-    margin-top: 26%;
     color: white;
+    display: inline-block;
+
 }
 #name{
     font-size: 58px;
-    z-index: 9;
+    z-index:10;
     display: inline-block;
-    position: absolute;
     font-weight: 300;
-    left: 40%;
-    margin-top: 23.5%;
     color: white;
 }
 
 .strong{
     font-size: 58px;
     font-weight: 800; 
-    z-index: 9;
-    display: inline-block;
-    position: absolute;
-    margin-left: 10px;
-    margin-top: 22%;
+    z-index: 10;
+     /* float: left; */
+     display: inline-block;
     color: white;
 }
 .card{
-    height: 1000px;
+    height: 900px;
+    opacity: 1;
+    padding: 0 !important;
     
 }
 
@@ -100,12 +120,19 @@ container{
 .btn[class*=btn-outline-]{
     padding-top: .4rem !important;
 }
-.particles-js-canvas-el element.style{
-position: absolute;
+
+
+.mb-5{
+    margin-bottom: -8px !important; 
 }
-.card .mb-5{
-    margin: 5px auto !important;
+canvas .particles-js-canvas-el{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
 }
+
+
 
 #particle-js{
     height: 100%;
@@ -114,8 +141,15 @@ position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
-   position: relative;
+    position: relative;
 
+}
+
+#particles canvas{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
 }
 
 element.style{
@@ -129,7 +163,13 @@ element.style{
     height: 300px;
     width: 370px;
     position: relative;
+    opacity: 7%;
    
+}
+
+#portfolio-card{
+    margin: 100px 100px 200px 100px;
+
 }
 
 .portfolio-grid {
@@ -147,24 +187,41 @@ element.style{
 .portfolio-grid img:hover {
     -webkit-transform: scale(2.5); 
     transform: scale(1.5); 
-    z-index: 2;
+    z-index: 11;
     position: relative;
     top:-25px;
 }
 
 
 .imageText{
-    margin: 55px;
-    position: absolute;
-    z-index: 8;
-    color: white;
-    font-size: 35px;
+  text-decoration: none;
+  color:black;
   
 }
 
+.imageText:hover{
+    text-decoration: none;
+}
+
+.bio-content{
+    margin: 0 auto;
+
+}
+
+#bio-card{
+    background-image: url("../images/about.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+ 
+}
 
 .social-link{
-    color: #4aaaa4;
+    color: white;
+}
+
+.social-link:hover{
+    color: lightpink;
 }
 
 .imageText:hover{
@@ -172,26 +229,37 @@ element.style{
 }
 
 /* Contact Page */
-/* input[type=text]:not(.browser-default){
-    max-width: 300px;
-} */
+
 
 #message{
  overflow: scroll;
 }
+
+
 #contact-card{
+    background-image: url("../images/contact.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     width: 100%;
     margin: 0 auto;
-    padding: 200px 300px 200px 300px;
+    padding: 100px 200px 100px 200px;
 }
 
 
 .social-icon{
     margin: 50px;
+    padding-left: 50px;
+   
   
 }
 #social-btn{
+    padding-top: 70px;
 margin: 0 auto;
     float: right;
 
+}
+
+.inTouch{
+    margin-bottom: 50px;
 }
