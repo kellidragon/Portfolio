@@ -6,6 +6,7 @@
 body{
     background-image: url("../images/space.jpeg");
     position: cover;
+    background: no-repeat;
    
 
 }
@@ -138,6 +139,7 @@ canvas .particles-js-canvas-el{
     height: 100%;
     background: cover;
     background-position: cover;
+    background: no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
