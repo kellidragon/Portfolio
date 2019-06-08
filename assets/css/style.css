@@ -41,24 +41,25 @@ h1{
 
 
 .btn-outline-default{
-    margin-top: 200%;
+   top: 400px;
     z-index: 9;
-    position: absolute;
-    border: transparent !important;
-    display: inline-block;
+    /* position: absolute; */
+    /* border: transparent !important;
+    display: inline-block; */  
 
 }
 
-.titleRow{
-    margin-top: 18%;
-    z-index: 10;
+
+
+.titleCol{
+    margin: 0 auto;
     position: absolute;
-    color: white;
-    left: 37%;
-    display:inline-block;
-    
+    top: 200px;
 }
 
+#headerButtons{
+margin: 0 auto;
+}
 .head-btn{
     color: white;
 }
@@ -218,12 +219,9 @@ element.style{
  
 }
 
-.social-link{
-    color: white;
-}
 
 .social-link:hover{
-    color: lightpink;
+    color: black;
 }
 
 .imageText:hover{
@@ -252,15 +250,15 @@ element.style{
 .social-icon{
     margin: 50px;
     padding-left: 50px;
-   
+    color: pink;   
   
 }
-#social-btn{
+/* #social-btn{
     padding-top: 70px;
 margin: 0 auto;
     float: right;
 
-}
+} */
 
 .inTouch{
     margin-bottom: 50px;
@@ -268,6 +266,16 @@ margin: 0 auto;
 
 
 @media screen and (max-width: 780px){
+
+    .inTouch{
+        font-size: 12px;
+    }
+
+    .btn-outline-default{
+       width: 100%;
+       top: 200px;
+
+    }
     body{
         width: 100%;
         overflow-wrap: normal;
@@ -290,6 +298,13 @@ margin: 0 auto;
     transform: none;
     
 }
+
+.titleCol{
+    margin: 0 auto;
+    position: absolute;
+    width: 100%;
+    top: 100px;
+}
   
 h1, h3 {
     font-size: 24px;
@@ -305,16 +320,14 @@ h1, h3 {
 }
    
   #social-btn{
-      width: 100%;
+      height: 15px;
+      width: 15px;
       margin: 0;
       padding: 0;
-      color: lightpink;
   }
 
-  .social-icon{
-    color: lightpink;
-   
-  }
+
+
 
   #headshot{
     width: 100%;
