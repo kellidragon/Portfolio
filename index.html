@@ -38,13 +38,13 @@
                 </div>
                 <div class="col-12"><br><br><br>
                     <button type="button" class="btn btn-outline-default btn-rounded waves-effect btn-port"><a
-                            href="#portfolio-card" class="head-btn">Portfolio</a></button>
+                            href="#portfolio" class="head-btn">Portfolio</a></button>
 
                     <button type="button" class="btn  btn-outline-default btn-rounded waves-effect btn-about"><a
-                            href="#bio-card" class="head-btn">About Me</a></button>
+                            href="#aboutMe" class="head-btn">About Me</a></button>
 
                     <button type="button" class="btn  btn-outline-default btn-rounded waves-effect btn-cont"><a
-                            href="#contact-card" class="head-btn">Contact</a></button>
+                            href="#inTouch" class="head-btn">Contact</a></button>
                 </div>
             </div>
             <!------------------------------------------------------PARTICLESJS--------------------------------------------------------->
@@ -53,11 +53,11 @@
         </div>
     </div>
     </div>
-    <!------------------------------------------------------BIO --------------------------------------------------------------->
-    <div class="container aboutMe">
+    <!------------------------------------------------------ABOUT ME--------------------------------------------------------------->
+    <div class="container">
         <div class="row bio-content">
             <div class="col-12">
-                <h1 class="aboutMe" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                <h1 id="aboutMe" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                     ABOUT ME</h1>
             </div>
         </div>
@@ -87,7 +87,7 @@
 
     <div class="row port-content">
         <div class="col-12">
-            <h1 data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+            <h1 id="portfolio" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                 PORTFOLIO</h1>
         </div>
     </div>
@@ -96,57 +96,107 @@
     <div class="container portContainer">
         <div class="portfolio-grid">
             <div class="grid-item" data-aos="flip-up">
+                    <a href="https://routine-jus-jim-kel.herokuapp.com/" target="_blank">
+                        <div class="imageText">
+                          <h4 style="color:pink;">ROUTINE </h4>  
+                          <h6> NODE/EXPRESS/HANDLEBARS/ SEQUELIZE/MYSQL APP</h6>
+                        </div><img src="./assets/images/routine.png" alt="" class="photo">
+                    </a><br>
+                    <a href="https://github.com/JimTatarakis/Routine" target="_blank">VIEW THE CODE</a>
+            </div>
+            <div class="grid-item" data-aos="flip-up">
                 <a href="https://kellidragon.github.io/TRVL./" target="_blank">
                     <div class="imageText">
-                        <h3>TRAVEL APP</h3>
-                    </div><img src="./assets/images/travel.png" alt="Hangman" class="photo">
+                        <h4 style="color:pink;">TRVL</h4> 
+                        <h6>FIREBASE/API APP</h6> 
+                    </div><img src="./assets/images/travel.png" alt="" class="photo">
                 </a> <br>
                 <a href="https://github.com/kellidragon/TRVL." target="_blank">VIEW THE CODE</a>
             </div>
             <div class="grid-item" data-aos="flip-up">
+                    <a href="https://tranquil-hamlet-20425.herokuapp.com/" target="_blank">
+                        <div class="imageText">
+                            <h4 style="color:pink;">BURGER PICKER </h4>
+                            <h6>NODE/EXPRESS/HANDLEBARS/MYSQL APP</h6>
+                        </div><img src="./assets/images/burger.png" alt="" class="photo">
+                    </a><br>
+                    <a href="https://github.com/kellidragon/Burger" target="_blank">VIEW THE CODE</a>
+                </div>
+            <div class="grid-item" data-aos="flip-up">
+                    <a href="https://github.com/kellidragon/bamazon" target="_blank">
+                        <div class="imageText">
+                            <h4 style="color:pink;">BAMAZON </h4>
+                            <h6>MYSQL CLI APP</h6>
+                        </div><img src="./assets/images/bamazon.png" alt="" class="photo">
+                    </a><br>
+                    <a href="https://github.com/kellidragon/bamazon" target="_blank">VIEW THE CODE</a>
+            </div>
+            <div class="grid-item" data-aos="flip-up">
+                    <a href="https://boiling-cove-65649.herokuapp.com/" target="_blank">
+                        <div class="imageText">
+                            <h4 style="color:pink;">FRIEND FINDER </h4>
+                            <h6>NODE/EXPRESS APP</h6>
+                        </div><img src="./assets/images/friend.png" alt="" class="photo">
+                    </a><br>
+                    <a href="https://github.com/kellidragon/Friend-Finder" target="_blank">VIEW THE CODE</a>
+            </div>
+            <div class="grid-item" data-aos="flip-up">
+                    <a href="https://github.com/kellidragon/liri-node-app" target="_blank">
+                        <div class="imageText">
+                            <h4 style="color:pink;">LIRI</h4>
+                            <h6>CLI NODE APP</h6>
+                        </div><img src="./assets/images/liri.png" alt="" class="photo">
+                    </a><br>
+                    <a href="https://github.com/kellidragon/liri-node-app" target="_blank">VIEW THE CODE</a>
+            </div>
+            <div class="grid-item" data-aos="flip-up">
                 <a href="https://kellidragon.github.io/GIPHY-API/" target="_blank">
                     <div class="imageText">
-                        <h3>GIPHY API</h3>
-                    </div><img src="./assets/images/nature.png" alt="RPG Game" class="photo">
+                        <h4 style="color:pink;">NATURE</h4>
+                        <h6>GIPHY API APP</h6>
+                    </div><img src="./assets/images/nature.png" alt="" class="photo">
                 </a><br>
                 <a href="https://github.com/kellidragon/GIPHY-API" target="_blank">VIEW THE CODE</a>
             </div>
             <div class="grid-item" data-aos="flip-up">
                 <a href="https://kellidragon.github.io/Train-Schedule/" target="_blank">
                     <div class="imageText">
-                        <h3>TRAIN SCHEDULE</h3>
-                    </div><img src="./assets/images/train.png" alt="Trivia Game" class="photo">
+                        <h4 style="color:pink;">TRAIN SCHEDULE </h4>
+                        <h6>FIREBASE/MOMENTSJS APP</h6>
+                    </div><img src="./assets/images/train.png" alt="" class="photo">
                 </a><br>
                 <a href="https://github.com/kellidragon/Train-Schedule" target="_blank">VIEW THE CODE</a>
             </div>
             <div class="grid-item" data-aos="flip-up">
                 <a href="https://kellidragon.github.io/Psychic/" target="_blank">
                     <div class="imageText">
-                        <h3>GUESSING GAME</h3>
-                    </div><img src="./assets/images/psychic.png" alt="Rutger Info Widget" class="photo">
+                        <h4 style="color:pink;">GUESSING GAME </h4>
+                        <h6>JAVASCRIPT</h6>
+                    </div><img src="./assets/images/psychic.png" alt="" class="photo">
                 </a><br>
                 <a href="https://github.com/kellidragon/Psychic" target="_blank">VIEW THE CODE</a>
             </div>
             <div class="grid-item" data-aos="flip-up">
                 <a href="https://kellidragon.github.io/Crystals-Game/" target="_blank">
                     <div class="imageText">
-                        <h3>LOGIC GAME</h3>
-                    </div><img src="./assets/images/crystals.png" alt="Rock, Paper, Scissors" class="photo">
+                        <h4 style="color:pink;">LOGIC GAME </h4>
+                        <h6>JQUERY</h6>
+                    </div><img src="./assets/images/crystals.png" alt="" class="photo">
                 </a><br>
                 <a href="https://github.com/kellidragon/Crystals-Game" target="_blank">VIEW THE CODE</a>
-            </div>
-        </div>
+            </div>  
     </div>
-
+    </div>
+</div>
     <!------------------------------------------------------CONTACT--------------------------------------------------------------->
     <div class="container contactCont">
         <div class="row">
             <div class="col-12">
-                <h1 class="inTouch" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                <h1 id="inTouch" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                     LET'S GET IN TOUCH</h1>
             </div>
         </div>
-            <div class="row social-icon">
+        <div class="row social-icon">
             <div class="col-12 socialbtn">
                 <div id="social-btn" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                     <a href="https://github.com/kellidragon" target="_blank" class="social-link"><i
@@ -159,31 +209,22 @@
             </div>
         </div>
         <div class="row contForm">
-                <div class="col-8 offset-2">
-            <form data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
-                <div>
-
-                    <i class="material-icons prefix far fa-user fa-lg"></i>
-                    <input id="icon_prefix" type="text" class="validate" placeholder="Name">
-                </div>
-
-                <i class="material-icons prefix far fa-envelope fa-lg"></i>
-                <input id="icon_prefix" type="text" class="validate" placeholder="Email">
-
-                <i class="material-icons prefix fas fa-phone fa-lg"></i>
-                <input id="icon_telephone" type="tel" class="validate" placeholder="Phone">
-
-
-                <i class="material-icons prefix far fa-edit fa-lg"></i>
-                <input id="icon_telephone" type="tel" class="validate" placeholder="message">
-
-
-                <input type="submit" class="btn btn-outline-defualt btn-rounded waves-effect submit-btn">
-
-            </form>
-
+            <div class="col-8 offset-2">
+                <form data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000" action="mailto: dragonkelli@gmail.com">
+                    <div>
+                        <i class="material-icons prefix far fa-user fa-lg"></i>
+                        <input id="icon_prefix" type="text" class="validate" placeholder="Name">
+                    </div>
+                        <i class="material-icons prefix far fa-envelope fa-lg"></i>
+                        <input id="icon_prefix" type="text" class="validate" placeholder="Email">
+                        <i class="material-icons prefix fas fa-phone fa-lg"></i>
+                        <input id="icon_telephone" type="tel" class="validate" placeholder="Phone">
+                        <i class="material-icons prefix far fa-edit fa-lg"></i>
+                        <input id="icon_telephone" type="tel" class="validate" placeholder="message">
+                        <input type="submit" class="btn btn-outline-defualt btn-rounded waves-effect submit-btn">
+                </form>
+            </div>
         </div>
-    </div>
     </div>
     </div>
     </div>
