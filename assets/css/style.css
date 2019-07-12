@@ -4,12 +4,18 @@
 }
 
 body{
-    background-image: url("../images/space.jpeg");
-    position: cover;
-    background: no-repeat;
-   
-
+    /* background-image: url("../images/space.jpeg"); */
+    /* position: cover; */
+    background-repeat: no-repeat;
 }
+
+.belowHeader{
+    background-image: url("../images/sky.jpeg");
+    /* position: fixed; */
+    /* background-size: cover;
+    background-position: center; */
+}
+
 
 h1{
     text-align: center;
@@ -22,8 +28,8 @@ h1{
 }
 
 #wrapAll{
-    background-color: lightpink;
-    text-align: center;
+    background-color: darkblue;
+    text-align: cover;
     width: 100%;
 
 }
@@ -43,23 +49,23 @@ h1{
 .btn-outline-default{
    top: 400px;
     z-index: 9;
-    /* position: absolute; */
-    /* border: transparent !important;
-    display: inline-block; */  
 
 }
 
+html {
+    scroll-behavior: smooth;
+  }
 
 
 .titleCol{
-    margin: 0 auto;
     position: absolute;
-    top: 200px;
+    top: 40%;
 }
 
-#headerButtons{
-margin: 0 auto;
+.titleRow{
+    margin: 0 auto;  
 }
+
 .head-btn{
     color: white;
 }
@@ -127,14 +133,13 @@ container{
 .mb-5{
     margin-bottom: -8px !important; 
 }
+
 canvas .particles-js-canvas-el{
     position: absolute;
     width: 100%;
     height: 100%;
     z-index: -1;
 }
-
-
 
 #particle-js{
     height: 100%;
@@ -211,13 +216,7 @@ element.style{
 
 }
 
-#bio-card{
-    background-image: url("../images/about.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
- 
-}
+
 
 
 .social-link:hover{
