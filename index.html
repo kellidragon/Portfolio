@@ -126,7 +126,7 @@
                     <a href="https://github.com/kellidragon/bamazon" target="_blank">
                         <div class="imageText">
                             <h4 style="color:pink;">BAMAZON </h4>
-                            <h6>MYSQL CLI APP</h6>
+                            <h6>CLI MYSQL APP</h6>
                         </div><img src="./assets/images/bamazon.png" alt="" class="photo">
                     </a><br>
                     <a href="https://github.com/kellidragon/bamazon" target="_blank">VIEW THE CODE</a>
@@ -167,7 +167,7 @@
                 </a><br>
                 <a href="https://github.com/kellidragon/Train-Schedule" target="_blank">VIEW THE CODE</a>
             </div>
-            <div class="grid-item" data-aos="flip-up">
+            <!-- <div class="grid-item" data-aos="flip-up">
                 <a href="https://kellidragon.github.io/Psychic/" target="_blank">
                     <div class="imageText">
                         <h4 style="color:pink;">GUESSING GAME </h4>
@@ -175,7 +175,7 @@
                     </div><img src="./assets/images/psychic.png" alt="" class="photo">
                 </a><br>
                 <a href="https://github.com/kellidragon/Psychic" target="_blank">VIEW THE CODE</a>
-            </div>
+            </div> -->
             <div class="grid-item" data-aos="flip-up">
                 <a href="https://kellidragon.github.io/Crystals-Game/" target="_blank">
                     <div class="imageText">
@@ -208,19 +208,21 @@
                 </div>
             </div>
         </div>
+        
         <div class="row contForm">
             <div class="col-8 offset-2">
-                <form data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000" action="mailto: dragonkelli@gmail.com">
+                <form  class= "gform" id="contactForm" data-aos="flip-left" 
+                data-aos-easing="ease-out-cubic" data-aos-duration="2000" action="mailto:dragonkelli@gmail.com" method="post">
                     <div>
                         <i class="material-icons prefix far fa-user fa-lg"></i>
-                        <input id="icon_prefix" type="text" class="validate" placeholder="Name">
+                        <input name="name" id="icon_prefix" type="text" class="validate" placeholder="Name">
                     </div>
                         <i class="material-icons prefix far fa-envelope fa-lg"></i>
-                        <input id="icon_prefix" type="text" class="validate" placeholder="Email">
+                        <input name="email"id="icon_prefix" type="text" class="validate" placeholder="Email">
                         <i class="material-icons prefix fas fa-phone fa-lg"></i>
-                        <input id="icon_telephone" type="tel" class="validate" placeholder="Phone">
+                        <input name="color"id="icon_telephone" type="tel" class="validate" placeholder="Phone">
                         <i class="material-icons prefix far fa-edit fa-lg"></i>
-                        <input id="icon_telephone" type="tel" class="validate" placeholder="message">
+                        <input name="message" id="icon_telephone" type="tel" class="validate" placeholder="message">
                         <input type="submit" class="btn btn-outline-defualt btn-rounded waves-effect submit-btn">
                 </form>
             </div>
@@ -228,10 +230,34 @@
     </div>
     </div>
     </div>
+    <!----------------------- Modal -------------------->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog"
+    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalCenterTitle" style="color: black; text-align: center;">Thank you for getting in contact! I will return your message as soon as possible.</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <footer>
+        2019 All Rights Reserved
+    </footer>
 
 
     <!-- JQuery -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+       <!-- JqueryCDN-->
+       <script src="https://code.jquery.com/jquery-3.4.0.js"
+       integrity="sha256-DYZMCC8HTC+QDr5QNaIcfR7VSPtcISykd+6eSmBW5qo=" crossorigin="anonymous"></script>
     <!-- Bootstrap tooltips -->
     <script type="text/javascript"
         src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
@@ -243,9 +269,7 @@
         src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.7/js/mdb.min.js"></script>
     <!-- Javascript file -->
     <script src="assets/javascript/main.js"></script>
-    <!-- JqueryCDN-->
-    <script src="https://code.jquery.com/jquery-3.4.0.js"
-        integrity="sha256-DYZMCC8HTC+QDr5QNaIcfR7VSPtcISykd+6eSmBW5qo=" crossorigin="anonymous"></script>
+ 
     <!------------------ Aos on scroll ---------->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!------------------ Particles.js ---------->

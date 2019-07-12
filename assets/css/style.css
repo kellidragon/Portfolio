@@ -36,6 +36,10 @@ p{
     background-color: rgba(250, 249, 249, 0.534);
 }
 
+.modal{
+    background-color:  rgba(250, 249, 249, 0.01) !important;
+}
+
 #aboutMe{
     margin-top: 150px;
 }
@@ -292,6 +296,16 @@ element.style{
 input{
     color:white;
 }
+
+footer {
+    height: 50px;
+    margin-top: -50px;
+    background-color:  rgba(250, 249, 249, 0.171);
+    text-align: center;
+    padding-top: 15px;
+    color: #4aaaa5;
+    width: 100%;
+  }
 @media screen and (max-width: 780px){
 
     .inTouch{
@@ -337,9 +351,6 @@ h1 {
     font-size: 24px;
 }
 
-h4{
-    color: navajowhite
-}
 
 
  .strong , #name {
@@ -356,9 +367,6 @@ h4{
       margin: 0;
       padding: 0;
   }
-
-
-
 
   #headshot{
     width: 100%;
