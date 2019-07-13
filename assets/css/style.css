@@ -303,6 +303,17 @@ footer {
   }
 @media screen and (max-width: 780px){
 
+
+    .fa-4x{
+        font-size: 2rem !important;
+        text-align: center;
+        padding: 25%;
+    }
+
+    .social-icon{
+       margin-left: 25%;
+      
+    }
     .inTouch{
         font-size: 12px;
     }
