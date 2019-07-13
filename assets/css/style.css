@@ -9,7 +9,7 @@ body{
 }
 
 html { 
-    background: url("../images/sky.jpeg") no-repeat center center fixed; 
+    background: url("../images/space.jpeg") no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -33,11 +33,12 @@ a:hover{
 
 p{
     color: white;
-    background-color: rgba(250, 249, 249, 0.534);
+    background-color: rgba(250, 249, 249, 0.219);
+    border: 1px solid #4aaaa5;
 }
 
 .modal{
-    background-color:  rgba(250, 249, 249, 0.01) !important;
+    background-color:  rgba(250, 249, 249, 0) !important;
 }
 
 #aboutMe{
@@ -45,27 +46,16 @@ p{
 }
 
 #wrapAll{
-    background-color: darkblue;
+    background-color: rgba(250, 249, 249, 0.01);
     text-align: cover;
     width: 100%;
-
+    text-align:center;
+    height: 100%;
 }
 
 .buttons{
     margin: 0 auto;
 }
-.jumbotron{
-    width: 100%;
-    height: 1500px;;
-    text-align:center;
-    height: 100%;
-    padding: 0;
-    background-image: url("../images/space.jpeg");
-    background-size: cover;
-    background-repeat: no-repeat;
-
-}
-
 
 .btn-outline-default{
    top: 400px;
@@ -142,7 +132,8 @@ p{
 }
 .portContainer{
     margin-top: 100px;
-    background-color: rgba(250, 249, 249, 0.534);
+    background-color: rgba(250, 249, 249, 0.219);
+    border: 1px solid #4aaaa5;
 }
 
 container{
@@ -304,7 +295,7 @@ input{
 footer {
     height: 50px;
     margin-top: -50px;
-    background-color:  rgba(250, 249, 249, 0.171);
+    background-color: rgba(250, 249, 249, 0.219);
     text-align: center;
     padding-top: 15px;
     color: #4aaaa5;
