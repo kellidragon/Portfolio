@@ -21,6 +21,7 @@ html {
 h1{
     text-align: center;
     color: lightgray;
+    font-size: 100px !important;
 }
 
 a{
@@ -70,7 +71,8 @@ p{
 }
 
 .titleRow{
-    margin: 0 auto;  
+    margin: 0 auto; 
+    padding-bottom: 50px; 
 }
 
 .head-btn{
