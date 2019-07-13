@@ -24,7 +24,7 @@ h1{
     font-size: 100px !important;
 }
 
-h2{
+.h2, h2{
     text-align: center;
     color: lightgray;
     font-size: 50px !important;
@@ -63,6 +63,10 @@ p{
 .buttons{
     padding-top: 50px;
     margin: 0 auto;
+}
+
+#icon-prefix{
+    font-size: 22px !important;
 }
 
 .btn-outline-default{
