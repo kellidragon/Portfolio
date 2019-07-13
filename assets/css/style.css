@@ -21,7 +21,7 @@ html {
 h1{
     text-align: center;
     color: lightgray;
-    font-size: 70px !important;
+    font-size: 100px !important;
 }
 
 a{
@@ -121,7 +121,7 @@ p{
 #headshot{
     height: 600px;
     width: auto;
-    padding-left: 150px;
+    /* padding-left: 150px; */
     float:left;
 }
 
