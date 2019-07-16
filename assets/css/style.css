@@ -62,8 +62,8 @@ p{
 }
 
 .buttons{
-    padding-top: 80px;
-    margin: 0 auto;
+    margin-top: 80px auto;
+    /* margin: 0 auto; */
 }
 
 #icon-prefix{
@@ -127,6 +127,10 @@ p{
     opacity: 1;
     padding: 0 !important;
     
+}
+
+#tech{
+    margin-top: 300px;
 }
 
 #headshot{
@@ -285,6 +289,29 @@ element.style{
   
 }
 
+.techIcons{
+    margin: 150px auto;
+}
+
+.techIcon{
+    color: white;
+    height: 100px;
+    width: 100px;
+}
+
+.fa-lg{
+    font-size: 4em !important;
+}
+
+.mongoIcon{
+    height: 70px;
+    width: 90px;
+}
+
+.expressIcon{
+    font-size: 2em;
+}
+
 .material-icons{
     color: #4aaaa5;
 }
@@ -298,6 +325,10 @@ element.style{
     color: pink;
 }
 
+.jqueryIcon{
+    padding-top: -20px;
+}
+
 .contForm{
     margin-top: 100px;
 }
@@ -305,6 +336,10 @@ element.style{
 input{
     color:white;
     font-size: 22px;
+}
+
+.email{
+    margin-top: 70px;
 }
 
 footer {
