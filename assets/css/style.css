@@ -309,7 +309,7 @@ element.style{
 }
 
 .expressIcon{
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 .material-icons{
@@ -325,9 +325,6 @@ element.style{
     color: pink;
 }
 
-.jqueryIcon{
-    padding-top: -20px;
-}
 
 .contForm{
     margin-top: 100px;
@@ -354,7 +351,10 @@ footer {
     width: 100%;
   }
 @media screen and (max-width: 780px){
-
+    html { 
+        background: url("../images/space.jpeg") no-repeat center center; 
+        background-attachment: scroll !important;
+    }
 
     .fa-4x{
         font-size: 2rem !important;
@@ -429,15 +429,7 @@ footer {
   @media only screen and (device-width : 414px) and (device-height : 896px) and (-webkit-device-pixel-ratio : 3) {
 
 
-    html { 
-        background: url("../images/space.jpeg") no-repeat center center; 
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        scroll-behavior: smooth;
-
-    }
+ 
     .h2, h2{
         color: lightgray;
         font-size: 25px !important;
@@ -448,5 +440,14 @@ footer {
 
     .btn-outline-default{
         width: 100%;
+    }
+
+    #jquery-icon{
+        height: 20px;
+        width: 60px;
+    }
+
+    .expressIcon{
+        font-size: 1em;
     }
 }
