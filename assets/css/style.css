@@ -429,19 +429,24 @@ footer {
   @media only screen and (device-width : 414px) and (device-height : 896px) and (-webkit-device-pixel-ratio : 3) {
 
 
-html { 
-    background: url("../images/space.jpeg") no-repeat center; 
+    html { 
+        background: url("../images/space.jpeg") no-repeat center center; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        scroll-behavior: smooth;
 
-}
-.h2, h2{
-    color: lightgray;
-    font-size: 25px !important;
-}
- body{
-     width: 100%;
- }  
+    }
+    .h2, h2{
+        color: lightgray;
+        font-size: 25px !important;
+    }
+    body{
+        width: 100%;
+    }  
 
- .btn-outline-default{
-    width: 100%;
- }
+    .btn-outline-default{
+        width: 100%;
+    }
 }
