@@ -351,11 +351,7 @@ footer {
     width: 100%;
   }
 @media screen and (max-width: 780px){
-    html { 
-        background: url("../images/space.jpeg") no-repeat center center; 
-        background-attachment: scroll !important;
-    }
-
+  
     .fa-4x{
         font-size: 2rem !important;
         text-align: center;
@@ -428,7 +424,13 @@ footer {
 }
   @media only screen and (device-width : 414px) and (device-height : 896px) and (-webkit-device-pixel-ratio : 3) {
 
+    html { 
+        background: url("../images/space copy.jpeg") no-repeat center center fixed; 
+    }
 
+    #social-btn{
+       float:left;
+    }
  
     .h2, h2{
         color: lightgray;
