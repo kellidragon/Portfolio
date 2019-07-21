@@ -339,7 +339,9 @@ input{
 }
 
 .email{
-    margin-top: 70px;
+    margin: 5rem auto;
+    text-align: center;
+    color: white;
 }
 
 footer {
@@ -369,8 +371,8 @@ footer {
     }
 
     .btn-outline-default{
-       width: 100%;
-       top: 200px;
+
+       top: 400px;
 
     }
     body{
@@ -423,4 +425,23 @@ footer {
     width: 100%;
     padding: 0;
   }
-  
+}
+  @media only screen and (device-width : 414px) and (device-height : 896px) and (-webkit-device-pixel-ratio : 3) {
+
+
+html { 
+    background: url("../images/space.jpeg") no-repeat center; 
+
+}
+.h2, h2{
+    color: lightgray;
+    font-size: 25px !important;
+}
+ body{
+     width: 100%;
+ }  
+
+ .btn-outline-default{
+    width: 100%;
+ }
+}
