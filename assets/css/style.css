@@ -425,7 +425,7 @@ footer {
   @media only screen and (width : 414px) and (height : 896px) and (-webkit-device-pixel-ratio : 3) {
 
     html { 
-        background: white; 
+        background: url("../images/space copy.jpeg") no-repeat center center fixed; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
