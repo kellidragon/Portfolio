@@ -426,6 +426,11 @@ footer {
 
     html { 
         background: url("../images/mobile.jpeg") no-repeat center center; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        scroll-behavior: smooth;
     }
     #social-btn{
        float:left;
