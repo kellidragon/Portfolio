@@ -420,11 +420,31 @@ footer {
     padding: 0;
   }
 }
+
+@media only screen and (min-width: 896px) and (orientation: landscape){
+    html { 
+        background: none;
+        background-color: rgba(49, 48, 119, 0.801)
+    }
+
+    body{
+        text-align: center;
+    }
+
+    h1{
+        font-size: 50px;
+    }
+    h3{
+        font-size: 25px;   
+    }
+
+
+}
   @media only screen and (min-width: 414px) and (max-width: 767px)   {
 
     html { 
-        background: url("../images/space.jpeg") no-repeat center center; 
-        background-color: rgba(34, 76, 104, 0.781)
+        background: none;
+        background-color: rgba(49, 48, 119, 0.801)
     }
 
     body{
@@ -449,7 +469,7 @@ footer {
 
 
     .btn-outline-default{
-        width: 100%;
+        /* width: 100%; */
     }
 
     #jquery-icon{
