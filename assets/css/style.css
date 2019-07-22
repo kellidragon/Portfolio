@@ -424,7 +424,7 @@ footer {
 }
   @media only screen and (device-width : 414px)  {
 
-    body { 
+    html { 
         background: url("../images/space copy.jpeg") no-repeat center center; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -432,6 +432,10 @@ footer {
         background-size: cover;
         scroll-behavior: smooth;
         width: 100%;
+    }
+
+    body{
+        text-align center;
     }
 
     h1{
