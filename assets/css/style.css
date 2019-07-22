@@ -63,7 +63,6 @@ p{
 
 .buttons{
     margin-top: 80px auto;
-    /* margin: 0 auto; */
 }
 
 #icon-prefix{
@@ -118,7 +117,6 @@ p{
     font-size: 58px;
     font-weight: 800; 
     z-index: 10;
-     /* float: left; */
      display: inline-block;
     color: white;
 }
@@ -422,16 +420,23 @@ footer {
     padding: 0;
   }
 }
-  @media only screen and (width : 414px) {
+  @media only screen and (width : 450px) {
+
+    h1{
+        font-size: 50px !important;
+    }
 
     html { 
-        background: url("../images/mobile.jpeg") no-repeat center center; 
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        scroll-behavior: smooth;
+       background-color: rgba(52, 40, 153, 0.678);
+       margin: 0 auto;
+
     }
+
+    #allHtml{
+        margin: 0 auto;
+        text-align: center;
+    }
+
     #social-btn{
        float:left;
     }
