@@ -118,7 +118,6 @@ p{
     font-size: 58px;
     font-weight: 800; 
     z-index: 10;
-     /* float: left; */
      display: inline-block;
     color: white;
 }
@@ -136,7 +135,6 @@ p{
 #headshot{
     height: 600px;
     width: auto;
-    /* padding-left: 150px; */
     float:left;
 }
 
@@ -425,7 +423,7 @@ footer {
   @media only screen and (device-width : 414px)  {
 
     html { 
-        background: url("../images/space copy.jpeg") no-repeat center center; 
+        background: none;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -435,7 +433,7 @@ footer {
     }
 
     body{
-        text-align center;
+        text-align: center;
     }
 
     h1{
@@ -453,12 +451,10 @@ footer {
         color: lightgray;
         font-size: 25px !important;
     }
-    body{
-        width: 100%;
-    }  
+
 
     .btn-outline-default{
-        width: 100%;
+        /* width: 100%; */
     }
 
     #jquery-icon{
