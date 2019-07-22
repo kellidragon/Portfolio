@@ -420,16 +420,11 @@ footer {
     padding: 0;
   }
 }
-  @media only screen and (device-width : 414px)  {
+  @media only screen and (min-width: 414px) and (max-width: 767px)   {
 
     html { 
         background: none;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        scroll-behavior: smooth;
-        width: 100%;
+    
     }
 
     body{
