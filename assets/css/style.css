@@ -424,7 +424,7 @@ footer {
 
     html { 
         background: url("../images/space.jpeg") no-repeat center center; 
-        /* background-color: rgba */
+        background-color: rgba(34, 76, 104, 0.781)
     }
 
     body{
@@ -449,7 +449,7 @@ footer {
 
 
     .btn-outline-default{
-        /* width: 100%; */
+        width: 100%;
     }
 
     #jquery-icon{
