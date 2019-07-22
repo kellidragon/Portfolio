@@ -288,6 +288,13 @@ element.style{
 }
 
 .techIcons{
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* grid-template-rows: repeat(3, 1fr); */
+    row-gap: 20px;
+    column-gap: 10px;
+    align-content: center;
     margin: 150px auto;
 }
 
@@ -308,6 +315,7 @@ element.style{
 
 .expressIcon{
     font-size: 1.5em;
+    margin: 50px;
 }
 
 .material-icons{
@@ -431,6 +439,10 @@ footer {
 
     body{
         text-align: center;
+    }
+
+    #jqueryIcon{
+        /* float: right; */
     }
 
     h1{
