@@ -422,17 +422,11 @@ footer {
     padding: 0;
   }
 }
-  @media only screen and (width : 414px) and (height : 896px) and (-webkit-device-pixel-ratio : 3) {
+  @media only screen and (width : 414px) {
 
     html { 
-        background: url("../images/space copy.jpeg") no-repeat center center fixed; 
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        scroll-behavior: smooth;
+        background: url("../images/mobile.jpeg") no-repeat center center; 
     }
-
     #social-btn{
        float:left;
     }
