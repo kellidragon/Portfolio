@@ -433,14 +433,8 @@ footer {
   @media only screen and (min-width: 414px) and (max-width: 767px)   {
 
     html { 
-        background: url("../images/mobile2.jpg") no-repeat center;
-        width: 100%;
-        height: auto;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        scroll-behavior: smooth;
+        background: rgb(0,20,121);
+        background: radial-gradient(circle, rgba(0,20,121,1) 0%, rgba(45,39,171,1) 43%, rgba(100,55,225,1) 74%, rgba(198,99,223,1) 100%);
       }
     
 
