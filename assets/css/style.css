@@ -433,7 +433,7 @@ footer {
   @media only screen and (min-width: 414px) and (max-width: 767px)   {
 
     html { 
-        background: url("../images/mobile2.jpg") no-repeat center center fixed; 
+        background: url("../images/mobile2.jpg");
         width: 100%;
         height: auto;
         -webkit-background-size: cover;
@@ -454,10 +454,10 @@ footer {
 
 
     h1{
-        font-size: 40px ;
+        font-size: 40px !important ;
     }
     h3{
-        font-size: 25px ;   
+        font-size: 25px !important;   
     }
 
     #social-btn{
