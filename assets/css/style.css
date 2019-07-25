@@ -435,13 +435,13 @@ footer {
     html { 
         background: url("../images/mobile.jpg") no-repeat center center fixed; 
         /* width: 100%;
-        height: auto;
+        height: auto; */
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
         scroll-behavior: smooth;
-      } */
+      }
     
     }
 
