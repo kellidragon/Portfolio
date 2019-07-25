@@ -259,8 +259,8 @@
 
             <div class="row contForm">
                 <div class="col-8 offset-2">
-                    <form class="gform" id="contactForm" data-aos="flip-left" data-aos-easing="ease-out-cubic"
-                        data-aos-duration="2000" action="mailto:dragonkelli@gmail.com" method="post">
+                    <form class="gform" id="contactForm" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-email="dragonkelli@gmail.com"
+                        data-aos-duration="2000" action="https://script.google.com/macros/s/AKfycbz1KYRljrznXMHjh7NuH5WLwf6Cyfa_ATP6u_pe9g/exec" method="POST">
                         <div>
                             <i class="material-icons prefix far fa-user fa-2x"></i>
                             <input name="name" id="icon_prefix" type="text" class="validate" placeholder="Name">
@@ -279,7 +279,7 @@
     </div>
     </div>
     <!----------------------- Modal -------------------->
-    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    <div class="modal fadeb  thankyou_message" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
         aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
@@ -318,6 +318,8 @@
         src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.7/js/mdb.min.js"></script>
     <!-- Javascript file -->
     <script src="assets/javascript/main.js"></script>
+     <!-- Form submission handler -->
+    <script data-cfasync="false" type="text/javascript" src="./assets/javascript/form-submission-handler.js"></script>
 
     <!------------------ Aos on scroll ---------->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
