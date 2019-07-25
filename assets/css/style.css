@@ -10,6 +10,8 @@ body{
 
 html { 
     background: url("../images/space.jpeg") no-repeat center center fixed; 
+    width: 100%;
+    height: auto;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -432,10 +434,10 @@ footer {
 
   @media only screen and (min-width: 414px) and (max-width: 767px)   {
 
-    html { 
+    /* html { 
         background: none;
         background-color: rgba(49, 48, 119, 0.801)
-    }
+    } */
 
     body{
         text-align: center;
@@ -443,10 +445,10 @@ footer {
 
 
     h1{
-        font-size: 30px !important;
+        font-size: 40px !important;
     }
     h3{
-        font-size: 15px !important;   
+        font-size: 25px !important;   
     }
 
     #social-btn{
