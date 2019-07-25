@@ -10,8 +10,6 @@ body{
 
 html { 
     background: url("../images/space.jpeg") no-repeat center center fixed; 
-    width: 100%;
-    height: auto;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -435,15 +433,15 @@ footer {
   @media only screen and (min-width: 414px) and (max-width: 767px)   {
 
     html { 
-        background: url("../images/mobile.jpeg") no-repeat center center fixed; 
-        width: 100%;
+        background: url("../images/mobile.jpg") no-repeat center center fixed; 
+        /* width: 100%;
         height: auto;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
         scroll-behavior: smooth;
-      }
+      } */
     
     }
 
@@ -456,10 +454,10 @@ footer {
 
 
     h1{
-        font-size: 40px !important;
+        font-size: 40px;
     }
     h3{
-        font-size: 25px !important;   
+        font-size: 25px;   
     }
 
     #social-btn{
