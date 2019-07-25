@@ -434,8 +434,8 @@ footer {
 
     html { 
         background: url("../images/mobile2.jpg");
-        width: 100%;
-        height: auto;
+        /* width: 100%;
+        height: auto; */
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -446,8 +446,9 @@ footer {
 
 
     #aboutMe{
-        margin-top: 200px;
+        margin-top: 250px;
     }
+
     body{
         text-align: center;
     }
